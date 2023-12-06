@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+}
+.section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+}
+.box{
+    display: flex;
+    height: 925px;
+    width: 1690px;
+    justify-content: center;
+    align-items: center;
+}
+
+.text button{
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-weight: 500;
+    width: 215px;
+    height: 30px;
+    font-size: 18px;
+    font-weight: 200;
+    background: transparent;
+    border: 2px solid red;
+    transform: translateY(20px);
+    margin-left: 70px;
+}
+.text h2{
+    margin-left: 50px;
+    font-size: 100px;
+    padding-top: 100px;
+    margin-top: 0;
+    padding-top: 0;
+}
+.text p{
+    font-size: 25px;
+    margin-left: 50px;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+.more{
+    display: flex;
+    padding-top: 20px;
+    padding-left: 50px;
+    margin-top: 50px;
+    padding-bottom: 10%;
+}
+.more button{
+    width: 35%;
+    height: 60px;
+    border-radius: 50px;
+    background: red;
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 22px;
+    font-weight: 500;
+}
+.more p{
+    font-size: 30px;
+    font-weight: 500;
+    padding-top: 10px;
+    transform: translateX(12px);
+}
+.more a{
+    padding-left: 10px;
+    font-size: 22px;
+    color: #000;
+    font-weight: 600;
+}
+.more a :hover{
+    color: gray;
+}
+.more ion-icon{
+    position: absolute;
+    padding-left: 1%;
+    font-size: 3em;
+}
+.illustrator{
+    justify-content: right;
+    align-items: right;
+    width: 35%;
+    height: 500px;
+    margin-left: 110px;
+}
+.illustrator img{
+    width: 100%;
+    height: 100%;
+}
